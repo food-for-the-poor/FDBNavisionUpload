@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="FDBDataUpload"
   DTS:PackageType="5"
-  DTS:VersionBuild="74"
-  DTS:VersionGUID="{CB52DC96-FB74-4B3A-8823-939436ED1AA9}">
+  DTS:VersionBuild="81"
+  DTS:VersionGUID="{1273D18E-142C-419C-BB7C-239A27EF216D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,7 +26,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="3"
-          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190405" />
+          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190410" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,7 +43,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB3/3iCuDXyhMifcIdM5eC5AAAAAASAAACgAAAAEAAAAFpzliKLIR/drCbhn+Tan5oYAAAA3ev2tMUDIv5D6Wn7Ko8DIwXPleNAMyOkFAAAALirari0rLgC08dEczlrx7SdCGqh</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAEza0GR080KBlYb/bhovyhAAAAAASAAACgAAAAEAAAAB2vv7WHEdbqAum9DzQYQSYYAAAA3clifvUSyMTloqZYLfETdqsqfj2TJRtdFAAAADkR3SeVKUZrCRXEss7ZRxn2nI03</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -1065,144 +1065,155 @@
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="11"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NDC"
-              DTS:DTSID="{AD32B3F6-9B76-4AC2-819F-38E2DF26C88D}"
+              DTS:DTSID="{C06D2F54-99EC-4CF9-8103-3E0DFBE3D739}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="6"
+              DTS:MaximumWidth="13"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NDC2"
+              DTS:DTSID="{7F5F7A37-C2B1-4176-8E1F-EAE5CF63568F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LBLRID"
-              DTS:DTSID="{8BF78D69-27E8-4288-B591-5B0D6400DBF2}"
+              DTS:DTSID="{F96E038A-C8E8-47FA-AC76-C360282B592B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GCN_SEQNO"
-              DTS:DTSID="{51DDBFF4-4684-450F-B1CB-E2D64A2DFC07}"
+              DTS:DTSID="{24C85B49-5427-418D-A348-78A561947F0C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="131"
-              DTS:DataPrecision="12"
-              DTS:DataScale="3"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PS"
-              DTS:DTSID="{1A21E499-872E-4F05-97CC-DA6D0952A86D}"
+              DTS:DTSID="{27E574B7-D740-48AE-B3BF-E20ACF31FD37}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="20"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AD"
-              DTS:DTSID="{28556BD3-E0E1-4CB5-A73F-8F1B8A78274B}"
+              DTS:DTSID="{8BF3A19D-B428-47A2-A464-1F4C7E35670F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="30"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LN"
-              DTS:DTSID="{4721DC25-BE29-40BF-B56D-61962CAD9809}"
+              DTS:DTSID="{32990A3B-3FDC-4321-B6B0-02634C9125AF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CSP"
-              DTS:DTSID="{C2695FFC-34E3-44AF-AFE0-DE02366FB150}"
+              DTS:DTSID="{860C87A7-1C64-4759-8EAC-07F4A87E654C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="3"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HCFA_UNIT"
-              DTS:DTSID="{4DA430A5-DA02-4F5E-B205-D30FAEF0F86A}"
+              DTS:DTSID="{1A01A3DA-038E-41A5-B85A-E36471D454BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HCFA_PS"
-              DTS:DTSID="{FE44A817-555F-40F4-AAC6-92AB75AC4364}"
+              DTS:DTSID="{AE1E8999-BE35-4D3A-8F51-3FE132AD55AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PD"
-              DTS:DTSID="{34DADB11-34F4-4805-9FD1-1F6CA42A0AA5}"
+              DTS:DTSID="{B886FD8A-8AC1-4BB4-9821-01C27929C157}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="60"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LN60"
-              DTS:DTSID="{B1FFED9D-271D-454B-8AAD-B26037ED1021}"
+              DTS:DTSID="{90B2C562-A278-4BBF-9159-867E5B63C96B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="2"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_TYPE"
-              DTS:DTSID="{8DAB9155-C9B2-4986-B397-1117438B237C}"
+              DTS:DTSID="{24DDE9E0-4534-40D2-9723-0D5A494ADC1A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_DATEC"
-              DTS:DTSID="{95337382-4E38-4261-BCDD-48BA2C636C31}"
+              DTS:DTSID="{89A9EA0D-B833-47F3-9E28-222FE4B4BCFE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="131"
-              DTS:DataPrecision="13"
-              DTS:DataScale="4"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_PRICEX"
-              DTS:DTSID="{635D1851-8187-440D-BB71-459175025636}"
+              DTS:DTSID="{AE3405C7-E97A-4EEE-9FA9-33C73CB98C2B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="6"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_DESC"
-              DTS:DTSID="{D0595CCF-5A67-44DF-94A8-4F92190CCD86}"
+              DTS:DTSID="{ADAE8DB0-78EF-43E0-9BCC-2411DD23E55A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="15"
+              DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MFG"
-              DTS:DTSID="{BDBD4EB5-C812-49AC-9622-1AB9A7EE7D0E}"
+              DTS:DTSID="{B1C59E65-E239-44D8-8ACA-A22EE5237480}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1291,6 +1302,17 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
+      DTS:DTSID="{CB3234A5-13D3-4D1C-A923-3D3A8C2234AC}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;FoodForPoor@207.250.104.136 -pw 1u~26n513M -be -batch -b FDBFtp.bat&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="FTPPath">
+      <DTS:VariableValue
+        DTS:DataType="8">FoodForPoor@207.250.104.136 -pw 1u~26n513M -be -batch -b FDBFtp.bat</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
       DTS:DTSID="{4BF71933-EACF-4FBB-AEB8-9D1D342BC5F1}"
       DTS:EvaluateAsExpression="True"
       DTS:Expression="REPLACE((DT_WSTR, 10)(DT_DBDATE)GETDATE(),&quot;-&quot;,&quot;&quot;)"
@@ -1298,7 +1320,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="TimeStamp">
       <DTS:VariableValue
-        DTS:DataType="8">20190405</DTS:VariableValue>
+        DTS:DataType="8">20190410</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -1559,6 +1581,14 @@
                       cachedName="MFG"
                       externalMetadataColumnId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[MFG]"
                       lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]" />
+                    <inputColumn
+                      refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].Columns[NDC2]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="14"
+                      cachedName="NDC2"
+                      externalMetadataColumnId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NDC2]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1566,90 +1596,104 @@
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NDC]"
                       codePage="1252"
                       dataType="str"
-                      length="11"
+                      length="50"
                       name="NDC" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[LBLRID]"
                       codePage="1252"
                       dataType="str"
-                      length="6"
+                      length="50"
                       name="LBLRID" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[GCN_SEQNO]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="GCN_SEQNO" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PS]"
-                      dataType="numeric"
-                      name="PS"
-                      precision="12"
-                      scale="3" />
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="PS" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[AD]"
                       codePage="1252"
                       dataType="str"
-                      length="20"
+                      length="50"
                       name="AD" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[LN]"
                       codePage="1252"
                       dataType="str"
-                      length="30"
+                      length="50"
                       name="LN" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[CSP]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="CSP" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[HCFA_UNIT]"
                       codePage="1252"
                       dataType="str"
-                      length="3"
+                      length="50"
                       name="HCFA_UNIT" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[HCFA_PS]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="HCFA_PS" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PD]"
                       codePage="1252"
                       dataType="str"
-                      length="10"
+                      length="50"
                       name="PD" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[LN60]"
                       codePage="1252"
                       dataType="str"
-                      length="60"
+                      length="50"
                       name="LN60" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NPT_TYPE]"
                       codePage="1252"
                       dataType="str"
-                      length="2"
+                      length="50"
                       name="NPT_TYPE" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NPT_DATEC]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="NPT_DATEC" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NPT_PRICEX]"
-                      dataType="numeric"
-                      name="NPT_PRICEX"
-                      precision="13"
-                      scale="4" />
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NPT_PRICEX" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NPT_DESC]"
                       codePage="1252"
                       dataType="str"
-                      length="6"
+                      length="50"
                       name="NPT_DESC" />
                     <externalMetadataColumn
                       refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[MFG]"
                       codePage="1252"
                       dataType="str"
-                      length="15"
+                      length="50"
                       name="MFG" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to CSV File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NDC2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="13"
+                      name="NDC2" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1681,11 +1725,12 @@
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT        
 Mstr.NDC, 
+SUBSTRING(Mstr.NDC, 0,6)+'-'+SUBSTRING(Mstr.NDC, 6,4)+'-'+SUBSTRING(Mstr.NDC, 10,2) AS NDC2, --71437-0525-01
 Mstr.LBLRID, 
 Mstr.GCN_SEQNO, 
-Mstr.PS, 
-LEFT(CASE WHEN Mstr.AD = '' THEN '' ELSE '"' + REPLACE(Mstr.AD, '"', '') + '"' END, 22) AS AD
-, LEFT(CASE WHEN Mstr.LN = '' THEN '' ELSE '"' + REPLACE(Mstr.LN,'"','') + '"' END, 32) AS LN, 
+Mstr.PS,
+LEFT(CASE WHEN Mstr.AD = '' THEN '' ELSE '"' + REPLACE(Mstr.AD, '"', '') + '"' END, 22) AS AD, 
+LEFT(CASE WHEN Mstr.LN = '' THEN '' ELSE '"' + REPLACE(Mstr.LN,'"','') + '"' END, 32) AS LN, 
 Mstr.CSP, 
 Mstr.HCFA_UNIT, 
 Mstr.HCFA_PS, 
@@ -1910,6 +1955,17 @@ ORDER BY LblDsc.MFG</property>
                       lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]"
                       name="MFG"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
+                      length="14"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
+                      name="NDC2"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2001,6 +2057,12 @@ ORDER BY LblDsc.MFG</property>
                       dataType="str"
                       length="15"
                       name="MFG" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="14"
+                      name="NDC2" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2015,6 +2077,13 @@ ORDER BY LblDsc.MFG</property>
                       length="11"
                       lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC]"
                       name="NDC" />
+                    <outputColumn
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="14"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
+                      name="NDC2" />
                     <outputColumn
                       refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LBLRID]"
                       codePage="1252"
@@ -2138,67 +2207,6 @@ ORDER BY LblDsc.MFG</property>
               startId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output]" />
           </paths>
         </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\FTP Connection to FDB"
-      DTS:CreationName="Microsoft.FtpTask"
-      DTS:DelayValidation="True"
-      DTS:Description="FTP Task"
-      DTS:Disabled="True"
-      DTS:DTSID="{A238CACA-C3B3-4E07-9CD7-89B2C1253DDA}"
-      DTS:ExecutableType="Microsoft.FtpTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="FTP Connection to FDB"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:EventHandlers>
-        <DTS:EventHandler
-          DTS:refId="Package\FTP Connection to FDB.EventHandlers[OnError]"
-          DTS:CreationName="OnError"
-          DTS:DTSID="{08CF45BE-A826-4F45-BB20-4EC89A95D638}"
-          DTS:EventID="0"
-          DTS:EventName="OnError"
-          DTS:LocaleID="-1">
-          <DTS:Variables>
-            <DTS:Variable
-              DTS:CreationName=""
-              DTS:Description="The propagate property of the event"
-              DTS:DTSID="{BCAA21A7-6086-4C9E-96F2-CCD15BF04080}"
-              DTS:IncludeInDebugDump="6789"
-              DTS:Namespace="System"
-              DTS:ObjectName="Propagate">
-              <DTS:VariableValue
-                DTS:DataType="11">-1</DTS:VariableValue>
-            </DTS:Variable>
-          </DTS:Variables>
-          <DTS:Executables>
-            <DTS:Executable
-              DTS:refId="Package\FTP Connection to FDB.EventHandlers[OnError]\Send Mail Task"
-              DTS:CreationName="Microsoft.SendMailTask"
-              DTS:Description="Send Mail Task"
-              DTS:DTSID="{75CF08FC-2FD7-4242-A40E-68DA99795279}"
-              DTS:ExecutableType="Microsoft.SendMailTask"
-              DTS:LocaleID="-1"
-              DTS:ObjectName="Send Mail Task">
-              <DTS:Variables />
-              <DTS:ObjectData>
-                <SendMailTask:SendMailTaskData
-                  SendMailTask:SMTPServer="{96CC3839-633B-44B3-9BC4-90AFA0B34286}"
-                  SendMailTask:From="navprocess@foodforthepoor.com"
-                  SendMailTask:To="danielruiz@foodforthepoor.com"
-                  SendMailTask:Subject="cannot connect to FDB FTP" xmlns:SendMailTask="www.microsoft.com/sqlserver/dts/tasks/sendmailtask" />
-              </DTS:ObjectData>
-            </DTS:Executable>
-          </DTS:Executables>
-        </DTS:EventHandler>
-      </DTS:EventHandlers>
-      <DTS:ObjectData>
-        <FtpData
-          ConnectionName="{17B5D81A-9A42-453C-B175-81E6AF0C58FA}"
-          TaskOperationType="Receive"
-          TaskIsLocalPathVar="True"
-          TaskLocalPath="User::FdbNetworkFolder" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -2914,6 +2922,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         </ScriptProject>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\SFTP Connection to FDB(putty)"
+      DTS:CreationName="Microsoft.ExecuteProcess"
+      DTS:Description="Execute Process Task"
+      DTS:DTSID="{113BD2C9-D02F-46EE-84F4-11A73736B78A}"
+      DTS:ExecutableType="Microsoft.ExecuteProcess"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SFTP Connection to FDB(putty)"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:PropertyExpression
+        DTS:Name="Arguments">@[User::FTPPath]</DTS:PropertyExpression>
+      <DTS:ObjectData>
+        <ExecuteProcessData
+          Executable="C:\Program Files (x86)\PuTTY\psftp.exe"
+          Arguments="FoodForPoor@207.250.104.136 -pw 1u~26n513M -be -batch -b FDBFtp.bat"
+          WorkingDirectory="\\ntfs\is\Navision\PriceUpdate\"
+          WindowStyle="Maximized" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -8180,11 +8208,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{8E862979-2A7A-46AC-B483-B8BC99C814F5}"
+      DTS:DTSID="{C4A334F1-CDB8-4251-BE1D-A6879EEA6749}"
       DTS:From="Package\Archive Old Folder"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\FTP Connection to FDB" />
+      DTS:To="Package\SFTP Connection to FDB(putty)" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
       DTS:CreationName=""
@@ -8193,6 +8221,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 10"
       DTS:To="Package\Rename Files and add extension" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 11]"
+      DTS:CreationName=""
+      DTS:DTSID="{C63E0EA0-816A-46C4-B79B-07E14B32413E}"
+      DTS:From="Package\SFTP Connection to FDB(putty)"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 11"
+      DTS:To="Package\Decompress Folder" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -8249,14 +8285,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 8"
       DTS:To="Package\Export List to CSV File" />
-    <DTS:PrecedenceConstraint
-      DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
-      DTS:CreationName=""
-      DTS:DTSID="{9F8C9605-FD06-47BD-813B-99F4F9C5A66E}"
-      DTS:From="Package\FTP Connection to FDB"
-      DTS:LogicalAnd="True"
-      DTS:ObjectName="Constraint 9"
-      DTS:To="Package\Decompress Folder" />
   </DTS:PrecedenceConstraints>
   <DTS:EventHandlers>
     <DTS:EventHandler
@@ -8295,30 +8323,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib">
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="163.5,289">
+          TopLeft="166.5,313">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="303,-170"
+              EndConnector="338,-180"
               Start="0,0"
-              End="303,-162.5">
+              End="338,-172.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-81" />
+                    End="0,-86" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-81"
-                    Point2="0,-85"
-                    Point3="4,-85" />
+                    Point1="0,-86"
+                    Point2="0,-90"
+                    Point3="4,-90" />
                   <mssgle:LineSegment
-                    End="299,-85" />
+                    End="334,-90" />
                   <mssgle:CubicBezierSegment
-                    Point1="299,-85"
-                    Point2="303,-85"
-                    Point3="303,-89" />
+                    Point1="334,-90"
+                    Point2="338,-90"
+                    Point3="338,-94" />
                   <mssgle:LineSegment
-                    End="303,-162.5" />
+                    End="338,-172.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8329,30 +8357,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="528.5,508">
+          TopLeft="566.5,522">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="193,-383"
+              EndConnector="275,-371"
               Start="0,0"
-              End="193,-375.5">
+              End="275,-363.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-187.5" />
+                    End="0,-181.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-187.5"
-                    Point2="0,-191.5"
-                    Point3="4,-191.5" />
+                    Point1="0,-181.5"
+                    Point2="0,-185.5"
+                    Point3="4,-185.5" />
                   <mssgle:LineSegment
-                    End="189,-191.5" />
+                    End="271,-185.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="189,-191.5"
-                    Point2="193,-191.5"
-                    Point3="193,-195.5" />
+                    Point1="271,-185.5"
+                    Point2="275,-185.5"
+                    Point3="275,-189.5" />
                   <mssgle:LineSegment
-                    End="193,-375.5" />
+                    End="275,-363.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8362,115 +8390,97 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="187,42"
-          Id="Package\FTP Connection to FDB"
-          TopLeft="29.5,71.5" />
-        <NodeLayout
           Size="169,42"
           Id="Package\Decompress Folder"
-          TopLeft="27.5,147.5" />
+          TopLeft="41.5,143.5" />
         <NodeLayout
           Size="231,42"
           Id="Package\Rename Files and add extension"
-          TopLeft="5.5,222.5" />
+          TopLeft="6.5,224.5" />
         <NodeLayout
           Size="165,42"
           Id="Package\Archive Old Folder"
           TopLeft="32,14" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="32,35">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-2.5,57.5"
-              Start="0,0"
-              End="-10,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-21,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-21,0"
-                    Point2="-25,0"
-                    Point3="-25,4" />
-                  <mssgle:LineSegment
-                    End="-25,53.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-25,53.5"
-                    Point2="-25,57.5"
-                    Point3="-21,57.5" />
-                  <mssgle:LineSegment
-                    End="-10,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="123,113.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-11,34"
-              Start="0,0"
-              End="-11,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13"
-                    Point2="0,17"
-                    Point3="-4,17" />
-                  <mssgle:LineSegment
-                    End="-7,17" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-7,17"
-                    Point2="-11,17"
-                    Point3="-11,21" />
-                  <mssgle:LineSegment
-                    End="-11,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="112,189.5">
+          TopLeft="124,185.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="9,33"
+              EndConnector="0,39"
               Start="0,0"
-              End="9,25.5">
+              End="0,31.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.5"
-                    Point2="0,16.5"
-                    Point3="4,16.5" />
+                    End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="226,42"
+          Id="Package\SFTP Connection to FDB(putty)"
+          TopLeft="35,78" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="197,35">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-49,43"
+              Start="0,0"
+              End="-49,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="5,16.5" />
+                    End="-45,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="5,16.5"
-                    Point2="9,16.5"
-                    Point3="9,20.5" />
+                    Point1="-45,0"
+                    Point2="-49,0"
+                    Point3="-49,4" />
                   <mssgle:LineSegment
-                    End="9,25.5" />
+                    End="-49,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="148,120">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-22,23.5"
+              Start="0,0"
+              End="-22,16">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.75"
+                    Point2="0,11.75"
+                    Point3="-4,11.75" />
+                  <mssgle:LineSegment
+                    End="-18,11.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-18,11.75"
+                    Point2="-22,11.75"
+                    Point3="-22,15.75" />
+                  <mssgle:LineSegment
+                    End="-22,16" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8484,18 +8494,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           ParentId="Package"
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="299,320"
-          Size="299,362"
+          PanelSize="266,320"
+          Size="266,363"
           Id="b5c753d9-a071-4b11-ac1f-d90b1b74753e"
-          TopLeft="41.5,23.5">
+          TopLeft="45,46.5">
           <GroupLayout.ChildrenIds>
-            <s:String>Package\FTP Connection to FDB</s:String>
             <s:String>Package\Decompress Folder</s:String>
             <s:String>Package\Rename Files and add extension</s:String>
             <s:String>Package\Archive Old Folder</s:String>
-            <s:String>Package.PrecedenceConstraints[Constraint 1]</s:String>
-            <s:String>Package.PrecedenceConstraints[Constraint 9]</s:String>
             <s:String>Package.PrecedenceConstraints[Constraint 10]</s:String>
+            <s:String>Package\SFTP Connection to FDB(putty)</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 1]</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 11]</s:String>
           </GroupLayout.ChildrenIds>
         </GroupLayout>
         <NodeLayout
@@ -8708,7 +8718,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           PanelSize="236,551"
           Size="236,594"
           Id="7fe061c3-5577-49d1-8a00-561f5a4c9be1"
-          TopLeft="380.5,27.5">
+          TopLeft="417.5,42.5">
           <GroupLayout.ChildrenIds>
             <s:String>Package\UploadNdcMaster</s:String>
             <s:String>Package\UploadPrice</s:String>
@@ -8737,7 +8747,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           PanelSize="194,103"
           Size="194,146"
           Id="d48f6e95-f878-4da0-b0f5-25dbac94e244"
-          TopLeft="623.5,34.5">
+          TopLeft="744.5,59.5">
           <GroupLayout.ChildrenIds>
             <s:String>Package\Export List to CSV File</s:String>
           </GroupLayout.ChildrenIds>
@@ -8803,18 +8813,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <DtsEventHandler
-    design-time-name="Package\FTP Connection to FDB.EventHandlers[OnError]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="150,42"
-          Id="Package\FTP Connection to FDB.EventHandlers[OnError]\Send Mail Task"
-          TopLeft="603,161" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
   <DtsEventHandler
     design-time-name="Package\Rename Files and add extension.EventHandlers[OnError]">
     <LayoutInfo>
