@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="FDBDataUpload"
   DTS:PackageType="5"
-  DTS:VersionBuild="87"
-  DTS:VersionGUID="{46F93275-94DE-4032-888C-FC7A12E8BCFF}">
+  DTS:VersionBuild="98"
+  DTS:VersionGUID="{50D8C149-B717-4D5E-83F7-EAAA1F3D3DD6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,7 +26,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="3"
-          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190410" />
+          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190411" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,7 +43,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADH/Xyxrwm+g909dv81JRXAAAAAAASAAACgAAAAEAAAADggC7RhLqC8j/5cRT9SN0oYAAAAtGFqfYNlfIOKWj7E2kga5uBg8CyNlRE7FAAAAJCBsC8U0eVYvtqZ8+DzSJHQRbSH</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAByP0Bo7g55zgbJcedsupZiAAAAAASAAACgAAAAEAAAANGWEA2GOqtpzNQbe1HmQesYAAAAO/L235LajZ4+wsh1LmLid9jdIjjNWRhCFAAAANNHG/aueOTwXFCVTlLD4mkffvQ6</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -1448,6 +1448,16 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
+      DTS:DTSID="{5E61A997-3241-458D-862D-5F56B9EE0393}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Error">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
       DTS:DTSID="{8D3E150F-54A0-4947-B73A-D0EBF5BB6D32}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
@@ -1475,7 +1485,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="TimeStamp">
       <DTS:VariableValue
-        DTS:DataType="8">20190410</DTS:VariableValue>
+        DTS:DataType="8">20190411</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -3091,11 +3101,57 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <DTS:Variables />
       <DTS:PropertyExpression
         DTS:Name="Arguments">@[User::FTPPath]</DTS:PropertyExpression>
+      <DTS:EventHandlers>
+        <DTS:EventHandler
+          DTS:refId="Package\SFTP Connection to FDB(putty).EventHandlers[OnError]"
+          DTS:CreationName="OnError"
+          DTS:DTSID="{798A462F-3224-4275-9712-E3C030D6886E}"
+          DTS:EventID="0"
+          DTS:EventName="OnError"
+          DTS:LocaleID="-1">
+          <DTS:Variables>
+            <DTS:Variable
+              DTS:CreationName=""
+              DTS:Description="The propagate property of the event"
+              DTS:DTSID="{5908D5F5-2864-4E26-88DE-B8ADE6F1AFD7}"
+              DTS:IncludeInDebugDump="6789"
+              DTS:Namespace="System"
+              DTS:ObjectName="Propagate">
+              <DTS:VariableValue
+                DTS:DataType="11">-1</DTS:VariableValue>
+            </DTS:Variable>
+          </DTS:Variables>
+          <DTS:Executables>
+            <DTS:Executable
+              DTS:refId="Package\SFTP Connection to FDB(putty).EventHandlers[OnError]\Send Mail Task"
+              DTS:CreationName="Microsoft.SendMailTask"
+              DTS:Description="Send Mail Task"
+              DTS:DTSID="{696CD691-6A72-47FB-AA26-2EEFF641C86E}"
+              DTS:ExecutableType="Microsoft.SendMailTask"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="Send Mail Task">
+              <DTS:Variables />
+              <DTS:PropertyExpression
+                DTS:Name="MessageSource">(DT_STR ,50 ,1252)@[System::ErrorCode] +" "+@[System::ErrorDescription] +" "+ @[System::TaskName]+" "+ @[User::Error]</DTS:PropertyExpression>
+              <DTS:PropertyExpression
+                DTS:Name="Subject">"Error on "+ @[System::SourceName]</DTS:PropertyExpression>
+              <DTS:ObjectData>
+                <SendMailTask:SendMailTaskData
+                  SendMailTask:SMTPServer="{96CC3839-633B-44B3-9BC4-90AFA0B34286}"
+                  SendMailTask:From="fdbDataUploadErr@foordforthepoor.com"
+                  SendMailTask:To="danielruiz@foodforthepoor.com"
+                  SendMailTask:Subject="Error on"
+                  SendMailTask:MessageSource="0  Send Mail Task " xmlns:SendMailTask="www.microsoft.com/sqlserver/dts/tasks/sendmailtask" />
+              </DTS:ObjectData>
+            </DTS:Executable>
+          </DTS:Executables>
+        </DTS:EventHandler>
+      </DTS:EventHandlers>
       <DTS:ObjectData>
         <ExecuteProcessData
           Executable="C:\Program Files (x86)\PuTTY\psftp.exe"
           Arguments="FoodForPoor@207.250.104.136 -pw 1u~26n513M -be -batch -b FDBFtp.bat"
-          WorkingDirectory="\\ntfs\is\Navision\PriceUpdate\"
+          WorkingDirectory="C:\Program Files (x86)\PuTTY"
           WindowStyle="Maximized" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -9411,5 +9467,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <DtsEventHandler
+    design-time-name="Package\SFTP Connection to FDB(putty).EventHandlers[OnError]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="150,77"
+          Id="Package\SFTP Connection to FDB(putty).EventHandlers[OnError]\Send Mail Task"
+          TopLeft="205,114" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
