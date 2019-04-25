@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">INF-DR</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAACAAAAAAADZgAAwAAAABAAAAAIp400VSDw1ep/yOXDR00UAAAAAASAAACgAAAAEAAAAHDcvAI1piJ3v8YSPzAhWZaIAAAAo96UNTwAfTTf+NbmIjgKdVwepJqP+2PYeIQViLcOba/w1qP9wfPjFcHRXJMLzvtykTBrOrvxkkAhewcDt5Yq/J4G3HZkvJIvPmTaJuV2oEM4luffoX/8f80+Lv5cQOtDeg3vAsRqXfyjH7NEoK7jFyRn4zBdkkbUine/R+4N5V0bNPecHqpYQhQAAADuxgSTVGUdDgrwlQfmLlXNGJnMKQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAACAAAAAAADZgAAwAAAABAAAACHewZuNvKBIXiTIJMR1H8jAAAAAASAAACgAAAAEAAAAGJyegVKw3eurT1CXuGTTPuIAAAAfxyGXpDDI/kYKgMCluqQq5hlUPZP2PECFctIdUoewFiCy0/Ctthqy0xjtYW7KPZb7fyY/im+kG3pecDTQKNuulEL95Z62YkyrcB4PxL+7NLyDQI/UzNCCXqlMZ762TaTRJyj/mbwvc7d9wfoW8JJx3LkoaDRsL4WhVSBaK8w73xqrmT778HnvRQAAACxydSNRZY/MBBOreGbey4nDY7EMg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">FDBDataUpload</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">87</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">110</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{46F93275-94DE-4032-888C-FC7A12E8BCFF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F0AF1F93-1D2C-4EC2-A14A-C61FEDBDB771}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -2025,7 +2025,12 @@
     </Manifest>
   </DeploymentModelSpecificContent>
   <ControlFlowParts />
-  <Miscellaneous />
+  <Miscellaneous>
+    <ProjectItem>
+      <Name>UploadInstructions.txt</Name>
+      <FullPath>UploadInstructions.txt</FullPath>
+    </ProjectItem>
+  </Miscellaneous>
   <Configurations>
     <Configuration>
       <Name>Development</Name>

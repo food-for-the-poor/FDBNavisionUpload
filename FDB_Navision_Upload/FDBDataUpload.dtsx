@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="FDBDataUpload"
   DTS:PackageType="5"
-  DTS:VersionBuild="99"
-  DTS:VersionGUID="{7490A2EC-9D62-4D57-8655-2CB1F1C9D6D7}">
+  DTS:VersionBuild="110"
+  DTS:VersionGUID="{F0AF1F93-1D2C-4EC2-A14A-C61FEDBDB771}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,7 +26,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="3"
-          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190423" />
+          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190425" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,7 +43,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACywy0xz6t2ZGu/ApyAbFSyAAAAAASAAACgAAAAEAAAAFM82VY3f8vOab0dZ9+7oVcYAAAAXyi2ZLrtnjERwvPdFw5HBeHZSrHAS2a1FAAAACuVvNNUnHyuugBq/UXQ+PiMmNJN</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABJwrSwsMvgHvrUMCLqgJbTAAAAAASAAACgAAAAEAAAADcYsiSUdkqBM+8WacLAXocYAAAASvgZzVz386F/2DktHtpW+UHh58nrkuaQFAAAADC4I1FQ/ibnbJbeOgl40IUhPzCR</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -976,7 +976,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NDC"
-              DTS:DTSID="{D104415A-5286-4D70-8669-FC9B8995FA2A}"
+              DTS:DTSID="{DEE5596C-0A4D-4253-B514-A95F1FBA3234}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -985,7 +985,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_TYPE"
-              DTS:DTSID="{D592FD06-7D0A-4C48-882F-4092D935181B}"
+              DTS:DTSID="{0768EF5F-88C9-4B29-868D-D5617D687400}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -994,15 +994,16 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_DATEC"
-              DTS:DTSID="{C36196E1-EBDD-43C0-BB3A-F8137C8010F1}"
+              DTS:DTSID="{0DAB4085-89CE-4304-A131-A89C5C2C0CB5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
               DTS:DataType="14"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_PRICEX"
-              DTS:DTSID="{380CD878-7B91-495F-BDA6-D61003939503}"
+              DTS:DTSID="{EDBAD711-A232-4093-A3EC-0174D2C3F811}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1069,7 +1070,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NDC"
-              DTS:DTSID="{C06D2F54-99EC-4CF9-8103-3E0DFBE3D739}"
+              DTS:DTSID="{38D4036F-BFFA-4327-91E3-A42551AD49D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1078,7 +1079,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NDC2"
-              DTS:DTSID="{7F5F7A37-C2B1-4176-8E1F-EAE5CF63568F}"
+              DTS:DTSID="{722FAF96-06BB-47FC-AFA9-71A4822EDEAC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1087,7 +1088,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LBLRID"
-              DTS:DTSID="{F96E038A-C8E8-47FA-AC76-C360282B592B}"
+              DTS:DTSID="{D47F7DB7-F62F-4CDC-B4C9-12BC7C2AEFD4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1096,7 +1097,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GCN_SEQNO"
-              DTS:DTSID="{24C85B49-5427-418D-A348-78A561947F0C}"
+              DTS:DTSID="{9BC9B1B3-2A83-4A7D-A9C0-7A11453E6744}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1105,7 +1106,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PS"
-              DTS:DTSID="{27E574B7-D740-48AE-B3BF-E20ACF31FD37}"
+              DTS:DTSID="{8AA5753B-57DC-4141-A680-6B18500C0901}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1114,7 +1115,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AD"
-              DTS:DTSID="{8BF3A19D-B428-47A2-A464-1F4C7E35670F}"
+              DTS:DTSID="{6E2C5056-2A62-41C2-BBF9-7857F48FAA25}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1123,7 +1124,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LN"
-              DTS:DTSID="{32990A3B-3FDC-4321-B6B0-02634C9125AF}"
+              DTS:DTSID="{81B195EF-980C-41F3-81B0-49C4B80FD87B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1132,7 +1133,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CSP"
-              DTS:DTSID="{860C87A7-1C64-4759-8EAC-07F4A87E654C}"
+              DTS:DTSID="{55ADEE3B-CB43-465F-9B04-A774D04E5BAA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1141,7 +1142,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HCFA_UNIT"
-              DTS:DTSID="{1A01A3DA-038E-41A5-B85A-E36471D454BD}"
+              DTS:DTSID="{F34BF808-250A-4484-B162-754D72873BD9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1150,7 +1151,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HCFA_PS"
-              DTS:DTSID="{AE1E8999-BE35-4D3A-8F51-3FE132AD55AB}"
+              DTS:DTSID="{03FB33C8-06EF-4DFD-99CE-B4032ACA5AA0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1159,7 +1160,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PD"
-              DTS:DTSID="{B886FD8A-8AC1-4BB4-9821-01C27929C157}"
+              DTS:DTSID="{4708CBCC-4E11-4045-A8A7-F68D6150E67D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1168,7 +1169,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LN60"
-              DTS:DTSID="{90B2C562-A278-4BBF-9159-867E5B63C96B}"
+              DTS:DTSID="{53215EB9-C157-4768-8674-753EA606F03E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1177,7 +1178,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_TYPE"
-              DTS:DTSID="{24DDE9E0-4534-40D2-9723-0D5A494ADC1A}"
+              DTS:DTSID="{73CFEB5B-0963-4A18-B312-E7706995023D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1186,7 +1187,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_DATEC"
-              DTS:DTSID="{89A9EA0D-B833-47F3-9E28-222FE4B4BCFE}"
+              DTS:DTSID="{BE7CB650-6C8C-47E0-84B8-7B2EEAC37ECD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1195,7 +1196,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_PRICEX"
-              DTS:DTSID="{AE3405C7-E97A-4EEE-9FA9-33C73CB98C2B}"
+              DTS:DTSID="{14837D4D-EDE2-4438-8D91-18A3E7566BF4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1204,7 +1205,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="NPT_DESC"
-              DTS:DTSID="{ADAE8DB0-78EF-43E0-9BCC-2411DD23E55A}"
+              DTS:DTSID="{181190DC-10A4-4BB2-82BF-41ABCB8D8D1E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1213,7 +1214,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MFG"
-              DTS:DTSID="{B1C59E65-E239-44D8-8ACA-A22EE5237480}"
+              DTS:DTSID="{391C9DE3-ED7E-47E0-B300-17902B1AAAD3}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1283,7 +1284,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 0"
-              DTS:DTSID="{A1053339-F2EC-4AB6-BC4F-767C26B157F1}"
+              DTS:DTSID="{73B7F4B2-53D9-4FC4-8E3C-093FEDF2B8B3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1291,7 +1292,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 1"
-              DTS:DTSID="{6147CFDB-A6F4-4278-BCBC-7A68049B942C}"
+              DTS:DTSID="{DF77690F-EF63-4DC1-8144-72D371F25ACB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1299,7 +1300,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 2"
-              DTS:DTSID="{9336B29C-E44F-445B-B2EF-B8DAB110A446}"
+              DTS:DTSID="{3BEB2726-C143-48FD-A1EF-5A29D972C03B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1307,7 +1308,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 3"
-              DTS:DTSID="{64D71E06-9588-4655-B5BE-685CC49D7E25}"
+              DTS:DTSID="{B7D88E9D-BA2B-4F9C-A821-D5284C0CAD4C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1315,7 +1316,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 4"
-              DTS:DTSID="{CABD50C1-056D-4F05-93F8-513E9E220BF2}"
+              DTS:DTSID="{7757E1D7-BE31-4884-85C4-66CF5337E53C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1323,7 +1324,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 5"
-              DTS:DTSID="{37F5E932-0DCC-47E7-AF30-E39795327606}"
+              DTS:DTSID="{896DFB42-A3F2-45FB-A355-CCBD6965F6C9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1331,7 +1332,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 6"
-              DTS:DTSID="{51713BAD-FA62-4BA2-B50F-38F17778049C}"
+              DTS:DTSID="{C5C14ABD-F579-4F20-A04D-7545021E21D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1339,7 +1340,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 7"
-              DTS:DTSID="{BA7A695C-D574-403B-87B4-6C5465390A5A}"
+              DTS:DTSID="{DEACF07D-5CB4-4669-AD78-2E603DE874AD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1347,7 +1348,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 8"
-              DTS:DTSID="{BEE5C4E9-2C39-4642-A6B9-C0FE19C52B2D}"
+              DTS:DTSID="{070BA0D0-C11C-488F-94FC-19B40E6F2786}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1355,7 +1356,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 9"
-              DTS:DTSID="{EA5E94A5-1C96-4CF6-91A1-7C2D8CC586DD}"
+              DTS:DTSID="{7A33C008-8071-4CA7-B047-040A416B8AD0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1363,7 +1364,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 10"
-              DTS:DTSID="{BA5879AE-FB2A-4F99-BEF7-D507F1B6405D}"
+              DTS:DTSID="{9FE8446A-6E0B-4455-AD1B-840AE1486BE5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1371,7 +1372,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 11"
-              DTS:DTSID="{E7E5046B-824C-458E-BC05-C01C2A57DF5E}"
+              DTS:DTSID="{A94269C5-407A-496C-8B70-F006EC2B243A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1379,7 +1380,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 12"
-              DTS:DTSID="{7F7460C5-F8B8-4EB1-B937-D46658EF414A}"
+              DTS:DTSID="{19A5883D-4F76-47E2-A509-029F7D5666A3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1387,7 +1388,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 13"
-              DTS:DTSID="{C7216E06-0CAF-4EEF-84E2-9487E94F1C6D}"
+              DTS:DTSID="{06C3FE2C-C4CE-42EF-874F-A415E3053448}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1395,7 +1396,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 14"
-              DTS:DTSID="{9B4286D7-75CB-46CF-BDD9-8BE485780B84}"
+              DTS:DTSID="{17714B41-E6EA-4ABE-83E6-4AA5F631F1D6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1403,7 +1404,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 15"
-              DTS:DTSID="{ED4252BC-8D0B-464F-B686-FB5676DEAF63}"
+              DTS:DTSID="{49248195-2935-415C-92D6-B7A50B6115A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1411,7 +1412,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 16"
-              DTS:DTSID="{ECBDD268-F790-4B6A-AFE3-C5F4C45CA359}"
+              DTS:DTSID="{6DC8103D-ABD2-45FA-952E-F3D6AEB59312}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1485,7 +1486,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="TimeStamp">
       <DTS:VariableValue
-        DTS:DataType="8">20190423</DTS:VariableValue>
+        DTS:DataType="8">20190425</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -1578,13 +1579,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Export List to text File"
+      DTS:refId="Package\Export List to CSV File"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{B1A698E1-115D-43E9-A13C-E1EBED220987}"
+      DTS:DTSID="{56854dcc-9cbb-410d-9094-6f58688aa92a}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Export List to text File"
+      DTS:ObjectName="Export List to CSV File"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -1592,12 +1593,12 @@
           version="1">
           <components>
             <component
-              refId="Package\Export List to text File\Flat File Destination"
+              refId="Package\Export List to CSV File\CSV"
               componentClassID="Microsoft.FlatFileDestination"
               contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Destination"
               localeId="1033"
-              name="Flat File Destination">
+              name="CSV">
               <properties>
                 <property
                   dataType="System.Boolean"
@@ -1615,256 +1616,256 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Export List to text File\Flat File Destination.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[TabMedUpdatePriceList]"
-                  connectionManagerRefId="Package.ConnectionManagers[TabMedUpdatePriceList]"
+                  refId="Package\Export List to CSV File\CSV.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[MedUpdatePriceList]"
+                  connectionManagerRefId="Package.ConnectionManagers[MedUpdatePriceList]"
                   name="FlatFileConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input]"
+                  refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input]"
                   hasSideEffects="true"
                   name="Flat File Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[NDC]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[NDC]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="11"
                       cachedName="NDC"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 0]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NDC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[NDC2]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="14"
-                      cachedName="NDC2"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 1]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]" />
-                    <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[LBLRID]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[LBLRID]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="6"
                       cachedName="LBLRID"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 2]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[LBLRID]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[GCN_SEQNO]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[GCN_SEQNO]"
                       cachedDataType="i4"
                       cachedName="GCN_SEQNO"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 3]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[GCN_SEQNO]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[PS]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[PS]"
                       cachedDataType="numeric"
                       cachedName="PS"
                       cachedPrecision="12"
                       cachedScale="3"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 4]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[PS]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[AD]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[AD]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="22"
                       cachedName="AD"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 5]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[AD]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[LN]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[LN]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="32"
                       cachedName="LN"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 6]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[LN]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[CSP]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[CSP]"
                       cachedDataType="i4"
                       cachedName="CSP"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 7]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[CSP]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[HCFA_UNIT]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[HCFA_UNIT]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="3"
                       cachedName="HCFA_UNIT"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 8]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[HCFA_UNIT]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[HCFA_PS]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[HCFA_PS]"
                       cachedDataType="i4"
                       cachedName="HCFA_PS"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 9]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[HCFA_PS]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[PD]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[PD]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
                       cachedName="PD"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 10]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[PD]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[LN60]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[LN60]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="62"
                       cachedName="LN60"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 11]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[LN60]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[NPT_TYPE]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[NPT_TYPE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="2"
                       cachedName="NPT_TYPE"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 12]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_TYPE]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[NPT_DATEC]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[NPT_DATEC]"
                       cachedDataType="i4"
                       cachedName="NPT_DATEC"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 13]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_DATEC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[NPT_PRICEX]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[NPT_PRICEX]"
                       cachedDataType="numeric"
                       cachedName="NPT_PRICEX"
                       cachedPrecision="13"
-                      cachedScale="4"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 14]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]" />
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_PRICEX]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[NPT_DESC]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[NPT_DESC]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="6"
                       cachedName="NPT_DESC"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 15]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_DESC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]" />
                     <inputColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].Columns[MFG]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[MFG]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="15"
                       cachedName="MFG"
-                      externalMetadataColumnId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 16]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]" />
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[MFG]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]" />
+                    <inputColumn
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].Columns[NDC2]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="14"
+                      cachedName="NDC2"
+                      externalMetadataColumnId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NDC2]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 0]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NDC]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 0" />
+                      length="50"
+                      name="NDC" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 1]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NDC2]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 1" />
+                      length="13"
+                      name="NDC2" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 2]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[LBLRID]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 2" />
+                      length="50"
+                      name="LBLRID" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 3]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[GCN_SEQNO]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 3" />
+                      length="50"
+                      name="GCN_SEQNO" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 4]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[PS]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 4" />
+                      length="50"
+                      name="PS" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 5]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[AD]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 5" />
+                      length="50"
+                      name="AD" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 6]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[LN]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 6" />
+                      length="50"
+                      name="LN" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 7]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[CSP]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 7" />
+                      length="50"
+                      name="CSP" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 8]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[HCFA_UNIT]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 8" />
+                      length="50"
+                      name="HCFA_UNIT" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 9]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[HCFA_PS]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 9" />
+                      length="50"
+                      name="HCFA_PS" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 10]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[PD]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 10" />
+                      length="50"
+                      name="PD" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 11]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[LN60]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 11" />
+                      length="50"
+                      name="LN60" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 12]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_TYPE]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 12" />
+                      length="50"
+                      name="NPT_TYPE" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 13]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_DATEC]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 13" />
+                      length="50"
+                      name="NPT_DATEC" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 14]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_PRICEX]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 14" />
+                      length="50"
+                      name="NPT_PRICEX" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 15]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[NPT_DESC]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 15" />
+                      length="50"
+                      name="NPT_DESC" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Column 16]"
+                      refId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input].ExternalColumns[MFG]"
                       codePage="1252"
                       dataType="str"
-                      length="255"
-                      name="Column 16" />
+                      length="50"
+                      name="MFG" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
             </component>
             <component
-              refId="Package\Export List to text File\OLE DB Source"
+              refId="Package\Export List to CSV File\OLE DB Source"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
               description="OLE DB Source"
@@ -1903,7 +1904,7 @@ Mstr.PD,
 LEFT(CASE WHEN Mstr.LN60 = '' THEN '' ELSE '"' + REPLACE(Mstr.LN60,'"','') + '"' END,62) AS LN60, 
 Prc.NPT_TYPE, 
 t.NPT_DATEC, 
-Prc.NPT_PRICEX, 
+CONVERT(DECIMAL(13,2),Prc.NPT_PRICEX) AS NPT_PRICEX, 
 PrcDsc.NPT_DESC, 
 LblDsc.MFG
 FROM  FdbNdcMstr AS Mstr WITH (NOLOCK) INNER JOIN
@@ -1941,7 +1942,7 @@ ORDER BY LblDsc.MFG</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Export List to text File\OLE DB Source.Connections[OleDbConnection]"
+                  refId="Package\Export List to CSV File\OLE DB Source.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[semigration.FdbNdcData]"
                   connectionManagerRefId="Package.ConnectionManagers[semigration.FdbNdcData]"
                   description="The OLE DB runtime connection used to access the database."
@@ -1949,281 +1950,281 @@ ORDER BY LblDsc.MFG</property>
               </connections>
               <outputs>
                 <output
-                  refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output]"
+                  refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC]"
                       length="11"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]"
                       name="NDC"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LBLRID]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LBLRID]"
                       length="6"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]"
                       name="LBLRID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[GCN_SEQNO]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[GCN_SEQNO]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]"
                       name="GCN_SEQNO"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PS]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PS]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]"
                       name="PS"
                       precision="12"
                       scale="3"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AD]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AD]"
                       length="22"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]"
                       name="AD"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN]"
                       length="32"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]"
                       name="LN"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CSP]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CSP]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]"
                       name="CSP"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_UNIT]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_UNIT]"
                       length="3"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]"
                       name="HCFA_UNIT"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_PS]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_PS]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]"
                       name="HCFA_PS"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PD]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PD]"
                       length="10"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]"
                       name="PD"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN60]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN60]"
                       length="62"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]"
                       name="LN60"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_TYPE]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_TYPE]"
                       length="2"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]"
                       name="NPT_TYPE"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DATEC]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DATEC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]"
                       name="NPT_DATEC"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_PRICEX]"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_PRICEX]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]"
                       name="NPT_PRICEX"
                       precision="13"
-                      scale="4"
+                      scale="2"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DESC]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DESC]"
                       length="6"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]"
                       name="NPT_DESC"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MFG]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MFG]"
                       length="15"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]"
                       name="MFG"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
+                      externalMetadataColumnId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
                       length="14"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
                       name="NDC2"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC]"
                       codePage="1252"
                       dataType="str"
                       length="11"
                       name="NDC" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LBLRID]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LBLRID]"
                       codePage="1252"
                       dataType="str"
                       length="6"
                       name="LBLRID" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[GCN_SEQNO]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[GCN_SEQNO]"
                       dataType="i4"
                       name="GCN_SEQNO" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PS]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PS]"
                       dataType="numeric"
                       name="PS"
                       precision="12"
                       scale="3" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AD]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AD]"
                       codePage="1252"
                       dataType="str"
                       length="22"
                       name="AD" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN]"
                       codePage="1252"
                       dataType="str"
                       length="32"
                       name="LN" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CSP]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CSP]"
                       dataType="i4"
                       name="CSP" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_UNIT]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_UNIT]"
                       codePage="1252"
                       dataType="str"
                       length="3"
                       name="HCFA_UNIT" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_PS]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_PS]"
                       dataType="i4"
                       name="HCFA_PS" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PD]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PD]"
                       codePage="1252"
                       dataType="str"
                       length="10"
                       name="PD" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN60]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN60]"
                       codePage="1252"
                       dataType="str"
                       length="62"
                       name="LN60" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_TYPE]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_TYPE]"
                       codePage="1252"
                       dataType="str"
                       length="2"
                       name="NPT_TYPE" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DATEC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DATEC]"
                       dataType="i4"
                       name="NPT_DATEC" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_PRICEX]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_PRICEX]"
                       dataType="numeric"
                       name="NPT_PRICEX"
                       precision="13"
-                      scale="4" />
+                      scale="2" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DESC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DESC]"
                       codePage="1252"
                       dataType="str"
                       length="6"
                       name="NPT_DESC" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MFG]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MFG]"
                       codePage="1252"
                       dataType="str"
                       length="15"
                       name="MFG" />
                     <externalMetadataColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
                       codePage="1252"
                       dataType="str"
                       length="14"
@@ -2231,131 +2232,131 @@ ORDER BY LblDsc.MFG</property>
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output]"
                   isErrorOut="true"
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC]"
                       codePage="1252"
                       dataType="str"
                       length="11"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC]"
                       name="NDC" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
                       codePage="1252"
                       dataType="str"
                       length="14"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
                       name="NDC2" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LBLRID]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LBLRID]"
                       codePage="1252"
                       dataType="str"
                       length="6"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LBLRID]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LBLRID]"
                       name="LBLRID" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[GCN_SEQNO]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[GCN_SEQNO]"
                       dataType="i4"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[GCN_SEQNO]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[GCN_SEQNO]"
                       name="GCN_SEQNO" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PS]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PS]"
                       dataType="numeric"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PS]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PS]"
                       name="PS"
                       precision="12"
                       scale="3" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AD]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AD]"
                       codePage="1252"
                       dataType="str"
                       length="22"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AD]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AD]"
                       name="AD" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN]"
                       codePage="1252"
                       dataType="str"
                       length="32"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN]"
                       name="LN" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CSP]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CSP]"
                       dataType="i4"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CSP]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CSP]"
                       name="CSP" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_UNIT]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_UNIT]"
                       codePage="1252"
                       dataType="str"
                       length="3"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_UNIT]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_UNIT]"
                       name="HCFA_UNIT" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_PS]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_PS]"
                       dataType="i4"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_PS]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_PS]"
                       name="HCFA_PS" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PD]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PD]"
                       codePage="1252"
                       dataType="str"
                       length="10"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PD]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PD]"
                       name="PD" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN60]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN60]"
                       codePage="1252"
                       dataType="str"
                       length="62"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN60]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN60]"
                       name="LN60" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_TYPE]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_TYPE]"
                       codePage="1252"
                       dataType="str"
                       length="2"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_TYPE]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_TYPE]"
                       name="NPT_TYPE" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DATEC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DATEC]"
                       dataType="i4"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DATEC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DATEC]"
                       name="NPT_DATEC" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_PRICEX]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_PRICEX]"
                       dataType="numeric"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_PRICEX]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_PRICEX]"
                       name="NPT_PRICEX"
                       precision="13"
-                      scale="4" />
+                      scale="2" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DESC]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DESC]"
                       codePage="1252"
                       dataType="str"
                       length="6"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DESC]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DESC]"
                       name="NPT_DESC" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MFG]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MFG]"
                       codePage="1252"
                       dataType="str"
                       length="15"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MFG]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MFG]"
                       name="MFG" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2366,10 +2367,807 @@ ORDER BY LblDsc.MFG</property>
           </components>
           <paths>
             <path
-              refId="Package\Export List to text File.Paths[OLE DB Source Output]"
-              endId="Package\Export List to text File\Flat File Destination.Inputs[Flat File Destination Input]"
+              refId="Package\Export List to CSV File.Paths[OLE DB Source Output]"
+              endId="Package\Export List to CSV File\CSV.Inputs[Flat File Destination Input]"
               name="OLE DB Source Output"
-              startId="Package\Export List to text File\OLE DB Source.Outputs[OLE DB Source Output]" />
+              startId="Package\Export List to CSV File\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Export List to tab File"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{B1A698E1-115D-43E9-A13C-E1EBED220987}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Export List to tab File"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Export List to tab File\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT        
+Mstr.NDC, 
+SUBSTRING(Mstr.NDC, 0,6)+'-'+SUBSTRING(Mstr.NDC, 6,4)+'-'+SUBSTRING(Mstr.NDC, 10,2) AS NDC2, --71437-0525-01
+Mstr.LBLRID, 
+Mstr.GCN_SEQNO, 
+Mstr.PS,
+LEFT(CASE WHEN Mstr.AD = '' THEN '' ELSE '"' + REPLACE(Mstr.AD, '"', '') + '"' END, 22) AS AD, 
+LEFT(CASE WHEN Mstr.LN = '' THEN '' ELSE '"' + REPLACE(Mstr.LN,'"','') + '"' END, 32) AS LN, 
+Mstr.CSP, 
+Mstr.HCFA_UNIT, 
+Mstr.HCFA_PS, 
+Mstr.PD, 
+LEFT(CASE WHEN Mstr.LN60 = '' THEN '' ELSE '"' + REPLACE(Mstr.LN60,'"','') + '"' END,62) AS LN60, 
+Prc.NPT_TYPE, 
+t.NPT_DATEC, 
+CONVERT(DECIMAL(13,2),Prc.NPT_PRICEX) AS NPT_PRICEX, 
+PrcDsc.NPT_DESC, 
+LblDsc.MFG
+FROM  FdbNdcMstr AS Mstr WITH (NOLOCK) INNER JOIN
+FdbNdcGncSeqLnk AS SqLnk WITH (NOLOCK) ON Mstr.GCN_SEQNO = SqLnk.GCN_SEQNO INNER JOIN
+FdbNdcGcnSeqMstr AS SqMstr WITH (NOLOCK) ON Mstr.GCN_SEQNO = SqMstr.GCN_SEQNO INNER JOIN
+FdbNdcPrice AS Prc WITH (NOLOCK) ON Mstr.NDC = Prc.NDC INNER JOIN
+FdbNdcPriceDesc AS PrcDsc WITH (NOLOCK) ON Prc.NPT_TYPE = PrcDsc.NPT_TYPE INNER JOIN
+FdbNdcLblDesc AS LblDsc WITH (NOLOCK) ON Mstr.LBLRID = LblDsc.LBLRID INNER JOIN
+ (SELECT        NDC, MAX(NPT_DATEC) AS NPT_DATEC, NPT_TYPE
+   FROM            FdbNdcPrice
+   GROUP BY NDC, NPT_TYPE) AS t ON Prc.NDC = t.NDC AND Prc.NPT_DATEC = t.NPT_DATEC AND Mstr.NDC = t.NDC AND Prc.NPT_TYPE = t.NPT_TYPE
+WHERE        (Prc.NPT_TYPE = '10')
+ORDER BY LblDsc.MFG</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Export List to tab File\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[semigration.FdbNdcData]"
+                  connectionManagerRefId="Package.ConnectionManagers[semigration.FdbNdcData]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC]"
+                      length="11"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]"
+                      name="NDC"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LBLRID]"
+                      length="6"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]"
+                      name="LBLRID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[GCN_SEQNO]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]"
+                      name="GCN_SEQNO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PS]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]"
+                      name="PS"
+                      precision="12"
+                      scale="3"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AD]"
+                      length="22"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]"
+                      name="AD"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN]"
+                      length="32"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]"
+                      name="LN"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CSP]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]"
+                      name="CSP"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_UNIT]"
+                      length="3"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]"
+                      name="HCFA_UNIT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_PS]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]"
+                      name="HCFA_PS"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PD]"
+                      length="10"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]"
+                      name="PD"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN60]"
+                      length="62"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]"
+                      name="LN60"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_TYPE]"
+                      length="2"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]"
+                      name="NPT_TYPE"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DATEC]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]"
+                      name="NPT_DATEC"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_PRICEX]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]"
+                      name="NPT_PRICEX"
+                      precision="13"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DESC]"
+                      length="6"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]"
+                      name="NPT_DESC"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MFG]"
+                      length="15"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]"
+                      name="MFG"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
+                      length="14"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]"
+                      name="NDC2"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC]"
+                      codePage="1252"
+                      dataType="str"
+                      length="11"
+                      name="NDC" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LBLRID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="6"
+                      name="LBLRID" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[GCN_SEQNO]"
+                      dataType="i4"
+                      name="GCN_SEQNO" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PS]"
+                      dataType="numeric"
+                      name="PS"
+                      precision="12"
+                      scale="3" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="22"
+                      name="AD" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN]"
+                      codePage="1252"
+                      dataType="str"
+                      length="32"
+                      name="LN" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CSP]"
+                      dataType="i4"
+                      name="CSP" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_UNIT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="3"
+                      name="HCFA_UNIT" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[HCFA_PS]"
+                      dataType="i4"
+                      name="HCFA_PS" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="PD" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LN60]"
+                      codePage="1252"
+                      dataType="str"
+                      length="62"
+                      name="LN60" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_TYPE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="2"
+                      name="NPT_TYPE" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DATEC]"
+                      dataType="i4"
+                      name="NPT_DATEC" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_PRICEX]"
+                      dataType="numeric"
+                      name="NPT_PRICEX"
+                      precision="13"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NPT_DESC]"
+                      codePage="1252"
+                      dataType="str"
+                      length="6"
+                      name="NPT_DESC" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MFG]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="MFG" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NDC2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="14"
+                      name="NDC2" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC]"
+                      codePage="1252"
+                      dataType="str"
+                      length="11"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC]"
+                      name="NDC" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="14"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NDC2]"
+                      name="NDC2" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LBLRID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="6"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LBLRID]"
+                      name="LBLRID" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[GCN_SEQNO]"
+                      dataType="i4"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[GCN_SEQNO]"
+                      name="GCN_SEQNO" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PS]"
+                      dataType="numeric"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PS]"
+                      name="PS"
+                      precision="12"
+                      scale="3" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="22"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AD]"
+                      name="AD" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN]"
+                      codePage="1252"
+                      dataType="str"
+                      length="32"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN]"
+                      name="LN" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CSP]"
+                      dataType="i4"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CSP]"
+                      name="CSP" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_UNIT]"
+                      codePage="1252"
+                      dataType="str"
+                      length="3"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_UNIT]"
+                      name="HCFA_UNIT" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_PS]"
+                      dataType="i4"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[HCFA_PS]"
+                      name="HCFA_PS" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PD]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PD]"
+                      name="PD" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN60]"
+                      codePage="1252"
+                      dataType="str"
+                      length="62"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LN60]"
+                      name="LN60" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_TYPE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="2"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_TYPE]"
+                      name="NPT_TYPE" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DATEC]"
+                      dataType="i4"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DATEC]"
+                      name="NPT_DATEC" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_PRICEX]"
+                      dataType="numeric"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_PRICEX]"
+                      name="NPT_PRICEX"
+                      precision="13"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DESC]"
+                      codePage="1252"
+                      dataType="str"
+                      length="6"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NPT_DESC]"
+                      name="NPT_DESC" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MFG]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MFG]"
+                      name="MFG" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Export List to tab File\TAB"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="TAB">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Export List to tab File\TAB.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[TabMedUpdatePriceList]"
+                  connectionManagerRefId="Package.ConnectionManagers[TabMedUpdatePriceList]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[NDC]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="11"
+                      cachedName="NDC"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 0]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[NDC2]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="14"
+                      cachedName="NDC2"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 1]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NDC2]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[LBLRID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="6"
+                      cachedName="LBLRID"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 2]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LBLRID]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[GCN_SEQNO]"
+                      cachedDataType="i4"
+                      cachedName="GCN_SEQNO"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 3]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[GCN_SEQNO]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[PS]"
+                      cachedDataType="numeric"
+                      cachedName="PS"
+                      cachedPrecision="12"
+                      cachedScale="3"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 4]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PS]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[AD]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="22"
+                      cachedName="AD"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 5]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[AD]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[LN]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="32"
+                      cachedName="LN"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 6]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[CSP]"
+                      cachedDataType="i4"
+                      cachedName="CSP"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 7]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[CSP]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[HCFA_UNIT]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="3"
+                      cachedName="HCFA_UNIT"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 8]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_UNIT]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[HCFA_PS]"
+                      cachedDataType="i4"
+                      cachedName="HCFA_PS"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 9]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[HCFA_PS]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[PD]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="PD"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 10]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[PD]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[LN60]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="62"
+                      cachedName="LN60"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 11]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[LN60]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[NPT_TYPE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="2"
+                      cachedName="NPT_TYPE"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 12]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_TYPE]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[NPT_DATEC]"
+                      cachedDataType="i4"
+                      cachedName="NPT_DATEC"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 13]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DATEC]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[NPT_PRICEX]"
+                      cachedDataType="numeric"
+                      cachedName="NPT_PRICEX"
+                      cachedPrecision="13"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 14]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_PRICEX]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[NPT_DESC]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="6"
+                      cachedName="NPT_DESC"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 15]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[NPT_DESC]" />
+                    <inputColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].Columns[MFG]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="MFG"
+                      externalMetadataColumnId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 16]"
+                      lineageId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output].Columns[MFG]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 0]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 0" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 1" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 2" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 3]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 3" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 4]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 4" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 5]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 5" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 6]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 6" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 7]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 7" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 8]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 8" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 9]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 9" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 10]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 10" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 11]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 11" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 12]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 12" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 13]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 13" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 14]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 14" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 15]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 15" />
+                    <externalMetadataColumn
+                      refId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input].ExternalColumns[Column 16]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="Column 16" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Export List to tab File.Paths[OLE DB Source Output]"
+              endId="Package\Export List to tab File\TAB.Inputs[Flat File Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Export List to tab File\OLE DB Source.Outputs[OLE DB Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -2639,35 +3437,34 @@ ORDER BY LblDsc.MFG</property>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_f8d454b40ab8434d9bac39dc27e68fe0")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_f8d454b40ab8434d9bac39dc27e68fe0")]
-[assembly: AssemblyCopyright("Copyright @  2019")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Settings.get_Default():ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -2854,34 +3651,35 @@ namespace ST_f8d454b40ab8434d9bac39dc27e68fe0
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
 //
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_f8d454b40ab8434d9bac39dc27e68fe0")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_f8d454b40ab8434d9bac39dc27e68fe0")]
+[assembly: AssemblyCopyright("Copyright @  2019")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Settings.get_Default():ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Sett" +
-    "ings")]
-
-namespace ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Settings.settings"
             Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -7892,6 +8690,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                       refId="Package\UploadPrice\FdbNdcPrice.Inputs[OLE DB Destination Input].Columns[NPT_PRICEX]"
                       cachedDataType="decimal"
                       cachedName="NPT_PRICEX"
+                      cachedScale="2"
                       externalMetadataColumnId="Package\UploadPrice\FdbNdcPrice.Inputs[OLE DB Destination Input].ExternalColumns[NPT_PRICEX]"
                       lineageId="Package\UploadPrice\RNP2_NDC_PRICE.Outputs[Flat File Source Output].Columns[NPT_PRICEX]" />
                   </inputColumns>
@@ -8051,6 +8850,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                       externalMetadataColumnId="Package\UploadPrice\RNP2_NDC_PRICE.Outputs[Flat File Source Output].ExternalColumns[NPT_PRICEX]"
                       lineageId="Package\UploadPrice\RNP2_NDC_PRICE.Outputs[Flat File Source Output].Columns[NPT_PRICEX]"
                       name="NPT_PRICEX"
+                      scale="2"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -8086,7 +8886,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                     <externalMetadataColumn
                       refId="Package\UploadPrice\RNP2_NDC_PRICE.Outputs[Flat File Source Output].ExternalColumns[NPT_PRICEX]"
                       dataType="decimal"
-                      name="NPT_PRICEX" />
+                      name="NPT_PRICEX"
+                      scale="2" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -8495,7 +9296,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:From="Package\UpdateGncLnk"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 8"
-      DTS:To="Package\Export List to text File" />
+      DTS:To="Package\Export List to tab File" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
+      DTS:CreationName=""
+      DTS:DTSID="{E5493BF0-3945-4718-8B92-73CDFE4D55F2}"
+      DTS:From="Package\Export List to tab File"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 9"
+      DTS:To="Package\Export List to CSV File" />
   </DTS:PrecedenceConstraints>
   <DTS:EventHandlers>
     <DTS:EventHandler
@@ -8572,9 +9381,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="275,-371"
+              EndConnector="191,-371"
               Start="0,0"
-              End="275,-363.5">
+              End="191,-363.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -8585,13 +9394,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                     Point2="0,-185.5"
                     Point3="4,-185.5" />
                   <mssgle:LineSegment
-                    End="271,-185.5" />
+                    End="187,-185.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="271,-185.5"
-                    Point2="275,-185.5"
-                    Point3="275,-189.5" />
+                    Point1="187,-185.5"
+                    Point2="191,-185.5"
+                    Point3="191,-189.5" />
                   <mssgle:LineSegment
-                    End="275,-363.5" />
+                    End="191,-363.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8947,20 +9756,48 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           </GroupLayout.ChildrenIds>
         </GroupLayout>
         <NodeLayout
-          Size="182,42"
-          Id="Package\Export List to text File"
+          Size="179,42"
+          Id="Package\Export List to tab File"
           TopLeft="5.5,5.5" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Export List to CSV File"
+          TopLeft="11,85" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 9]"
+          TopLeft="98.75,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.5"
+              Start="0,0"
+              End="0,30">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <GroupLayout
           Text="Data Output"
           ParentId="Package"
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="194,103"
-          Size="194,146"
+          PanelSize="207,195"
+          Size="207,238"
           Id="d48f6e95-f878-4da0-b0f5-25dbac94e244"
           TopLeft="744.5,59.5">
           <GroupLayout.ChildrenIds>
-            <s:String>Package\Export List to text File</s:String>
+            <s:String>Package\Export List to tab File</s:String>
+            <s:String>Package\Export List to CSV File</s:String>
+            <s:String>Package.PrecedenceConstraints[Constraint 9]</s:String>
           </GroupLayout.ChildrenIds>
         </GroupLayout>
       </GraphLayout>
@@ -8979,32 +9816,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     </LayoutInfo>
   </DtsEventHandler>
   <TaskHost
-    design-time-name="Package\Export List to text File">
+    design-time-name="Package\Export List to tab File">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="172,42"
-          Id="Package\Export List to text File\Flat File Destination"
-          TopLeft="287,106" />
+          Size="98,42"
+          Id="Package\Export List to tab File\TAB"
+          TopLeft="286,106" />
         <NodeLayout
           Size="150,42"
-          Id="Package\Export List to text File\OLE DB Source"
+          Id="Package\Export List to tab File\OLE DB Source"
           TopLeft="109,99" />
         <EdgeLayout
-          Id="Package\Export List to text File.Paths[OLE DB Source Output]"
+          Id="Package\Export List to tab File.Paths[OLE DB Source Output]"
           TopLeft="259,123.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="28,0"
+              EndConnector="27,0"
               Start="0,0"
-              End="20.5,0">
+              End="19.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="20.5,0" />
+                    End="19.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9017,7 +9854,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Export List to text File\OLE DB Source">
+    design-time-name="Package\Export List to tab File\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -9474,6 +10311,52 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Export List to CSV File">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Export List to CSV File\OLE DB Source"
+          TopLeft="109,99" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Export List to CSV File\CSV"
+          TopLeft="308,102" />
+        <EdgeLayout
+          Id="Package\Export List to CSV File.Paths[OLE DB Source Output]"
+          TopLeft="259,121.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="49,0"
+              Start="0,0"
+              End="41.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="41.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Export List to CSV File\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
