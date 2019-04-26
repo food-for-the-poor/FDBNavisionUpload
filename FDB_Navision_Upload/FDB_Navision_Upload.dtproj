@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">INF-DR</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAACAAAAAAADZgAAwAAAABAAAACHewZuNvKBIXiTIJMR1H8jAAAAAASAAACgAAAAEAAAAGJyegVKw3eurT1CXuGTTPuIAAAAfxyGXpDDI/kYKgMCluqQq5hlUPZP2PECFctIdUoewFiCy0/Ctthqy0xjtYW7KPZb7fyY/im+kG3pecDTQKNuulEL95Z62YkyrcB4PxL+7NLyDQI/UzNCCXqlMZ762TaTRJyj/mbwvc7d9wfoW8JJx3LkoaDRsL4WhVSBaK8w73xqrmT778HnvRQAAACxydSNRZY/MBBOreGbey4nDY7EMg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAACAAAAAAADZgAAwAAAABAAAADnV9+SzctwDD9g4cTdGSUjAAAAAASAAACgAAAAEAAAAEg5PkokjDcOSuUBXGOtWy+IAAAAaHWVk+K6KtbKAJ0ndJLB/lzQP/AWj0B0FwHCduC1sNp/iRirumgKhZXsleU2XF9qkvSi0vgEHxQjW7gM0xYbg7tNuX9CPGvawcr01RvVOro3P/bQ5RXHUkUngjejCO2N5CJZw066p8h0p7xVFl+nl8ZoMd2uREOJqlbfX8WGTdb5ayeoCwNfJBQAAAAIQ9YWer/xT44rgY8P5+vg91U7PA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">FDBDataUpload</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">110</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">112</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{F0AF1F93-1D2C-4EC2-A14A-C61FEDBDB771}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{0F65D074-8E01-493F-96A9-18A4E6F7C420}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -242,7 +242,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Generic Formulation and Ingredient\RGCNSEQ4_GCNSEQNO_MSTR.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Generic Formulation and Ingredient\RGCNSEQ4_GCNSEQNO_MSTR.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -424,7 +424,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Generic Formulation and Ingredient\RGCN0_GCN_GCNSEQNO_LINK.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Generic Formulation and Ingredient\RGCN0_GCN_GCNSEQNO_LINK.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -606,7 +606,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Packaged Product\RLBLRID3_LBLR_DESC.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Packaged Product\RLBLRID3_LBLR_DESC.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -788,7 +788,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Packaged Product\RNDC14_NDC_MSTR.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Packaged Product\RNDC14_NDC_MSTR.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -970,7 +970,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Packaged Product\ROBCD0_OBC_DESC.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Packaged Product\ROBCD0_OBC_DESC.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1152,7 +1152,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Pricing\RNP2_NDC_PRICE.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Pricing\RNP2_NDC_PRICE.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1334,7 +1334,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Pricing\RNPTYPD0_NDC_PRICE_TYPE_DESC.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\NDDF BASICS 3.0\Pricing\RNPTYPD0_NDC_PRICE_TYPE_DESC.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1516,7 +1516,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Output\MedUpdatePriceList.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Output\MedUpdatePriceList.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1653,7 +1653,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB\NDDF Descriptive and Pricing\</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1668,7 +1668,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\IS\Navision\PriceUpdate\Download\Work\NDDF Plus DB</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Download\Work\NDDF Plus DB</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1891,7 +1891,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">\\ntfs\is\Navision\PriceUpdate\Output\MedUpdatePriceList.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\FFPFS1\Information Systems\Navision\PriceUpdate\Output\MedUpdatePriceList.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
