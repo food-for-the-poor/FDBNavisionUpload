@@ -7,12 +7,12 @@
   DTS:CreatorName="FFP\danielruiz"
   DTS:DTSID="{96ECC248-B555-43D0-8C40-045A1EF3171F}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.1100.123"
+  DTS:LastModifiedProductVersion="15.0.1300.375"
   DTS:LocaleID="1033"
   DTS:ObjectName="FDBDataUpload"
   DTS:PackageType="5"
-  DTS:VersionBuild="112"
-  DTS:VersionGUID="{0F65D074-8E01-493F-96A9-18A4E6F7C420}">
+  DTS:VersionBuild="115"
+  DTS:VersionGUID="{8FB0A61A-3D77-4EF8-93A0-0C543C73BD94}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,7 +26,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="3"
-          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190426" />
+          DTS:ConnectionString="\\ntfs\is\Navision\PriceUpdate\Download\Archive\NDDFPlusDb20190625" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,7 +43,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUpKsldgF80+ddYRTUj6dHwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB00zeEe4MNv+6adXT48iICAAAAAASAAACgAAAAEAAAAGqWA4xukZZe3GsP+HWSlWUYAAAASWYm3QhHNp3VJcJjOD02pIBmjuL/yknLFAAAAPgrFLupJ83dwb6yxoR5R5SSxU1d</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAn6jVveENHkuveuvQSHuOSAAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACZ1aFNppiGMw1/nv78ovPMAAAAAASAAACgAAAAEAAAAJg+zIdwqit2rJ5VpRyYQ1IYAAAAYfq9WmSiVRPK8QACiwxFt1oXww6CQzbHFAAAANunp58DVHaFYVHK0om4tMVQCnvD</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -71,7 +71,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="GCN_SEQNO"
-              DTS:DTSID="{55DD0E80-823C-4C59-83F9-52F13519C651}"
+              DTS:DTSID="{C65CCCF6-843B-420A-96C8-E4FD28BCAFFB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,7 +80,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="HIC3"
-              DTS:DTSID="{8714191C-E63F-40CA-AF65-D25D0DE75FAC}"
+              DTS:DTSID="{551576EE-DE16-457E-949F-BFA9C45F0B1A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -89,7 +89,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="HICL_SEQNO"
-              DTS:DTSID="{2EF90AD8-0E16-41CC-995D-F267AEA1E3B3}"
+              DTS:DTSID="{EBD0049D-6943-41F0-BC90-547913E2E175}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -98,7 +98,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GCDF"
-              DTS:DTSID="{719FB03A-7337-4592-9F48-E076470B8696}"
+              DTS:DTSID="{ABF0D3AF-314F-40F2-A805-0D5EEB6E4E74}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -107,7 +107,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GCRT"
-              DTS:DTSID="{57DEB071-294E-415A-8D2B-EF2517474945}"
+              DTS:DTSID="{29E990F7-F1C8-4040-8DC9-E30528EEE159}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -116,7 +116,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STR"
-              DTS:DTSID="{605E7608-6F64-46C6-9929-38DE81AE733E}"
+              DTS:DTSID="{C11C492E-647E-4518-A6C5-1BD480B53C09}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -125,7 +125,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="GTC"
-              DTS:DTSID="{3FF8A3DB-A0DA-4CCE-AF56-95F2BE2334B5}"
+              DTS:DTSID="{03BCF48F-E0BF-4FC7-8DD0-80A8B144C5E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -134,7 +134,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="TC"
-              DTS:DTSID="{F38A7485-A40A-4C9E-B01A-786B19F12959}"
+              DTS:DTSID="{7629A023-F935-452E-A5A9-44CAF4D6F86F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -143,7 +143,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DCC"
-              DTS:DTSID="{8BFF3B51-DBD4-4B35-9471-48D08176EF29}"
+              DTS:DTSID="{28D836AC-9749-4826-AFF7-A3882A1EB7EB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -152,7 +152,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GCNSEQ_GI"
-              DTS:DTSID="{D10EF336-9DEB-44EE-BBBA-B2670BB634DA}"
+              DTS:DTSID="{2B0F08D8-4056-4830-BBD4-A4C91F0231BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -161,7 +161,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="GENDER"
-              DTS:DTSID="{191EFD14-FD1A-4D76-8F68-25F489E2E4AD}"
+              DTS:DTSID="{D0965363-4B59-4135-9983-A72448FEAB62}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -170,7 +170,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="HIC3_SEQN"
-              DTS:DTSID="{070F57CE-45F0-404A-8DD4-6FA62ED23364}"
+              DTS:DTSID="{7620F667-DA5D-49FA-8CEF-DCC986A1D604}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -179,7 +179,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STR60"
-              DTS:DTSID="{98E154B4-5F9C-4DFD-AD3F-78D6D036DB12}"
+              DTS:DTSID="{9EEE1951-B0FF-4C5C-9A51-DA31BF7BCD65}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1486,7 +1486,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="TimeStamp">
       <DTS:VariableValue
-        DTS:DataType="8">20190426</DTS:VariableValue>
+        DTS:DataType="8">20190625</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -3437,14 +3437,34 @@ ORDER BY LblDsc.MFG</property>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Settings.get_Default():ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Sett" +
+    "ings")]
+
+namespace ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -3631,35 +3651,6 @@ namespace ST_f8d454b40ab8434d9bac39dc27e68fe0
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Settings.get_Default():ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties.Sett" +
-    "ings")]
-
-namespace ST_f8d454b40ab8434d9bac39dc27e68fe0.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -3689,6 +3680,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -9375,6 +9375,40 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 8]"
+          TopLeft="569.5,518">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="418,-363"
+              Start="0,0"
+              End="418,-355.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-177.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-177.5"
+                    Point2="0,-181.5"
+                    Point3="4,-181.5" />
+                  <mssgle:LineSegment
+                    End="414,-181.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="414,-181.5"
+                    Point2="418,-181.5"
+                    Point3="418,-185.5" />
+                  <mssgle:LineSegment
+                    End="418,-355.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <NodeLayout
           Size="169,42"
           Id="Package\Decompress Folder"
@@ -9778,40 +9812,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             <s:String>Package.PrecedenceConstraints[Constraint 9]</s:String>
           </GroupLayout.ChildrenIds>
         </GroupLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="569.5,518">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="418,-363"
-              Start="0,0"
-              End="418,-355.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-177.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-177.5"
-                    Point2="0,-181.5"
-                    Point3="4,-181.5" />
-                  <mssgle:LineSegment
-                    End="414,-181.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="414,-181.5"
-                    Point2="418,-181.5"
-                    Point3="418,-185.5" />
-                  <mssgle:LineSegment
-                    End="418,-355.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -9833,13 +9833,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="150,42"
-          Id="Package\Export List to CSV File\OLE DB Source"
-          TopLeft="109,99" />
-        <NodeLayout
           Size="98,42"
           Id="Package\Export List to CSV File\CSV"
           TopLeft="308,102" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Export List to CSV File\OLE DB Source"
+          TopLeft="109,99" />
         <EdgeLayout
           Id="Package\Export List to CSV File.Paths[OLE DB Source Output]"
           TopLeft="259,121.5">
